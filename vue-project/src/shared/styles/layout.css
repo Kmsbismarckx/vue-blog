@@ -1,0 +1,19 @@
+.Row {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.Column {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.page {
+    padding: 0 16px;
+    min-height: calc(100% - var(--header-height));
+    height: 100%;
+    width: 100%;
+}
